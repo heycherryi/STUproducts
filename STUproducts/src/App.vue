@@ -1,10 +1,17 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
+import HeroSection from './components/HeroSection.vue';
+import ProductSection from './components/ProductSection.vue';
 </script>
 
 <template>
-  <Navbar />
-  <div style="margin-top: 80px; padding: 20px;">
-    <!-- คอนเทนต์ของเว็บไซต์ -->
+  <div>
+    <Navbar />
+    <HeroSection />
+   
+
+
+
   </div>
+
 </template>
